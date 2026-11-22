@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>OPERATION: BROTHER BY BOND ❤️ | Happy 21st Birthday!</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="OPERATION: BROTHER BY BOND ❤️">
+  <meta name="description" content="A Personalized Birthday Surprise Website for my brother by bond turning 21! Not born as siblings, but chosen as brother and sister.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@600;700&family=Comic+Neue:wght@400;700&family=Fredoka:wght@500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- React 18 & ReactDOM 18 -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+  <!-- Babel Standalone (Compiles JSX directly in browser) -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Prevent flash of unstyled content */
+    #root:empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #250408;
+      color: #D4AF37;
+      font-family: 'Bangers', cursive;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    #root:empty::after {
+      content: "PREPARING OPERATION: BROTHER BY BOND... 🎁";
+      animation: pulse 1.2s infinite;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-amber-400 selection:text-black">
+
+  <!-- React Root Container -->
+  <div id="root"></div>
+
+  <!-- Application Configuration & Sound Engine -->
+  <script src="quizData.js"></script>
+  <script src="soundEffects.js"></script>
+
+  <!-- React Application Source -->
+  <script type="text/babel" src="app.jsx"></script>
+
+</body>
+</html>
